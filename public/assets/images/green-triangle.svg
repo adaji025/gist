@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="532.181" height="532.181" viewBox="0 0 532.181 532.181">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#23b95f" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#317b9a" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <path id="Polygon" d="M179.731,21.466a12,12,0,0,1,21.466,0L372.244,363.561a12,12,0,0,1-10.733,17.367H19.416A12,12,0,0,1,8.683,363.561Z" transform="matrix(0.589, 0.808, -0.808, 0.589, 307.908, 0)" fill="url(#linear-gradient)"/>
+</svg>
