@@ -10,6 +10,12 @@ module.exports = {
         dark: '#1A1A26',
         greyInput: '#DBBFB3',
         grey: '#F0F1EE'
+      },
+      fontFamily:{
+        mangueira: ["Manqueira", "sans-serif"]
+      },
+      screens: {
+        xl3: '1700px'
       }
     },
   },

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Manqueira';
+    src: url('Mangueira-Regular.otf') format('otf'),
+        url('Mangueira-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Manqueira';
+    src: url('Mangueira-Medium.otf') format('otf'),
+        url('Mangueira-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Manqueira';
+    src: url('Mangueira-SemiBold.otf') format('otf'),
+        url('Mangueira-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Manqueira';
+    src: url('Mangueira-Bold.otf') format('otf'),
+        url('Mangueira-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Futura';
+    src: url('../Mangueira/Futura-Bold.woff') format('woff'),
+        url('../Mangueira/Futura-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
