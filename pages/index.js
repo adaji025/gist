@@ -59,6 +59,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <img src="/assets/images/close.svg" alt="" className={`animate-spin-slow ${styles.close}`} />
+        <img src="/assets/images/small-green-circle.svg" alt="" className={`animate-bounce hidden md:block ${styles.circle}`} />
+        <img src="/assets/images/small-orange-elipse.svg" alt="" className={`animate-ping-slow ${styles.orangeCircle}`} />
       </div>
     </div>
   );

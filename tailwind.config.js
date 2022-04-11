@@ -16,6 +16,10 @@ module.exports = {
       },
       screens: {
         xl3: '1700px'
+      },
+      animation: {
+        'spin-slow': 'spin 5s linear infinite',
+        'ping-slow': 'ping 5s linear infinite',
       }
     },
   },
