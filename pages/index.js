@@ -23,9 +23,9 @@ export default function Home() {
                 </h1>
               </div>
             </div>
-            <div className="lg:flex flex-1">
-              <div className="w-[90%] mx-auto lg:w-1/2 md:h-full lg:h-[unset] flex justify-center">
-                <div className={`md:w-4/6 md:h-[70vh] flex flex-col justify-center text-center sm:text-left ${styles.share}`}>
+            <div className="md:grid lg:grid-cols-2">
+              <div className="w-[90%] mx-auto  md:h-full lg:h-[unset] flex justify-center">
+                <div className={`md:w-5/6 md:h-[70vh] flex flex-col justify-center lg:ml-auto text-center sm:text-left ${styles.share}`}>
                   <h1 className="text-2xl mb-2 sm:mb-6 md:text-[50px] text-dark font-bold font-[Mangueira]">
                     Share the Gist
                   </h1>
@@ -49,11 +49,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="md:hidden lg:block overflow-x-hidden">
+              <div className="md:hidden xl:block overflow-x-hidden ml-32">
                 <img 
                   src="/assets/images/hand.png"
                   alt=""
-                  className={`lg:w-[46rem] xl3:w-[60rem] mt-8 ml-20 md:ml-16 ${styles.hand}`}
+                  className={`lg:w-[36rem] 2xl:w-[36rem] xl3:w-[44rem] mx-auto mt-8 ${styles.hand}`}
                 />
               </div>
             </div>
