@@ -14,7 +14,7 @@ export default function Home() {
       <div className={styles.first}>
         <div className={styles.third}>
           {/* <div className=""></div> */}
-          <div className={`font-mangueira flex flex-col ${styles.fourth}`}>
+          <div className={`font-gt flex flex-col ${styles.fourth}`}>
             <div className={`flex justify-center pt-10 ${styles.gist}`}>
               <div className="bg-[#F0F1EE]/20 text-center py-2 px-4">
                 <img src="/assets/images/microphone.svg" alt="" />
@@ -26,7 +26,7 @@ export default function Home() {
             <div className="md:grid lg:grid-cols-2">
               <div className="w-[90%] mx-auto  md:h-full lg:h-[unset] flex justify-center">
                 <div className={`md:w-5/6 md:h-[70vh] flex flex-col justify-center lg:ml-auto text-center sm:text-left ${styles.share}`}>
-                  <h1 className="text-2xl mb-2 sm:mb-6 md:text-[50px] text-dark font-bold font-[Mangueira]">
+                  <h1 className="text-2xl mb-2 sm:mb-6 md:text-[50px] text-dark font-bold">
                     Share the Gist
                   </h1>
                   <div className={`${styles.intro}`}>

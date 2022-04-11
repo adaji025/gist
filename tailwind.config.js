@@ -12,7 +12,8 @@ module.exports = {
         grey: '#F0F1EE'
       },
       fontFamily:{
-        mangueira: ["Manqueira", "sans-serif"]
+        mangueira: ["Manqueira", "sans-serif"],
+        gt: ["GT Walsheim Pro", "sans-serif"],
       },
       screens: {
         xl3: '1700px'
