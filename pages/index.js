@@ -41,15 +41,15 @@ export default function Home() {
                       type="email"
                       required
                       placeholder="Enter email address"
-                      className="bg-transparent w-3/5 sm:flex-1 outline-none p-4 placeholder:text-dark placeholder:font-bold"
+                      className="bg-transparent w-3/5 text-sm sm:flex-1 outline-none p-4 placeholder:text-dark placeholder:font-bold"
                     />
-                    <button className="bg-orange flex-1 sm:flex-grow-0 whitespace-nowrap p-3 text-sm sm:text-lg text-white font-semibold rounded-md">
+                    <button className="bg-orange flex-1 sm:flex-grow-0 whitespace-nowrap p-3 text-sm sm:px-8 text-white font-semibold rounded-md">
                       Join Waitlist
                     </button>
                   </div>
                 </div>
               </div>
-              <div className="md:hidden xl:block overflow-x-hidden ml-32">
+              <div className="md:hidden xl:block overflow-x-hidden ml-14 sm:ml-32">
                 <img 
                   src="/assets/images/hand.png"
                   alt=""
