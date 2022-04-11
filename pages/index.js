@@ -15,7 +15,7 @@ export default function Home() {
         <div className={styles.third}>
           {/* <div className=""></div> */}
           <div className={`font-mangueira flex flex-col ${styles.fourth}`}>
-            <div className="flex justify-center pt-10">
+            <div className={`flex justify-center pt-10 ${styles.gist}`}>
               <div className="bg-[#F0F1EE]/20 text-center py-2 px-4">
                 <img src="/assets/images/microphone.svg" alt="" />
                 <h1 className="pt-2 text-4xl font-bold text-orange font-mangueira">
@@ -24,9 +24,9 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:flex flex-1">
-              <div className=" w-[90%] mx-auto lg:w-1/2 h-full lg:h-[unset] flex justify-center">
-                <div className="md:w-4/6 h-[70vh] flex flex-col justify-center">
-                  <h1 className="text-2xl mb-6 md:text-[50px] text-dark font-bold font-[Mangueira]">
+              <div className="w-[90%] mx-auto lg:w-1/2 md:h-full lg:h-[unset] flex justify-center">
+                <div className={`md:w-4/6 md:h-[70vh] flex flex-col justify-center text-center sm:text-left ${styles.share}`}>
+                  <h1 className="text-2xl mb-2 sm:mb-6 md:text-[50px] text-dark font-bold font-[Mangueira]">
                     Share the Gist
                   </h1>
                   <div className={`${styles.intro}`}>
@@ -36,22 +36,24 @@ export default function Home() {
                       same. Welcome to Web3.
                     </h2>
                   </div>
-                  <div className="mt-6 bg-greyInput rounded-lg flex justify-between">
+                  <div className=" mt-4 sm:mt-6 bg-greyInput rounded-lg flex sm:justify-between">
                     <input
                       type="email"
                       required
                       placeholder="Enter email address"
-                      className="bg-transparent flex-1 outline-none p-4 placeholder:text-dark placeholder:font-bold"
+                      className="bg-transparent w-3/5 sm:flex-1 outline-none p-4 placeholder:text-dark placeholder:font-bold"
                     />
-                    <button className="bg-orange p-3 text-sm sm:text-lg text-white font-semibold rounded-md">Join Waitlist</button>
+                    <button className="bg-orange flex-1 sm:flex-grow-0 whitespace-nowrap p-3 text-sm sm:text-lg text-white font-semibold rounded-md">
+                      Join Waitlist
+                    </button>
                   </div>
                 </div>
               </div>
-              <div className="hidden lg:block">
-                <img
+              <div className="md:hidden lg:block overflow-x-hidden">
+                <img 
                   src="/assets/images/hand.png"
                   alt=""
-                  className="w-[46rem] xl3:w-[60rem] ml-16"
+                  className={`lg:w-[46rem] xl3:w-[60rem] mt-8 ml-20 md:ml-16 ${styles.hand}`}
                 />
               </div>
             </div>

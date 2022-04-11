@@ -62,3 +62,19 @@
   top: 0;
   left: -20px;
 }
+
+@media (max-width: 414px) and (min-height: 700px ) {
+  .gist {
+    margin-top: 2rem;
+  }
+  .share {
+    margin-top: 3rem;
+  }
+  .share h1 {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  .fourth .hand {
+    margin-top: 3rem;
+  }
+}
